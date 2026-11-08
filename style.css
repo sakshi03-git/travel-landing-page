@@ -47,19 +47,17 @@
     font-size: 210%;
 }
 .destination-container{
-    display: flex;
-    justify-content: space-between ;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
     gap:25px;
-    width: 100%;
-    padding: 20px;
 }
 #destination-card{
-   flex: 1;
+  width:300px;
 }
 #destinaton-card img{
     width: 100%;
-    height: auto;
-    max-height: 250px;
+    height: 180px;
+   object-fit: cover;
 }
 .quote-style-section{
     color: white;
